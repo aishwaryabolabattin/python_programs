@@ -1,0 +1,13 @@
+from collections import deque
+dq=deque([10,20,30,405,90])
+print(dq)
+dq.appendleft(5)
+print(dq)
+dq.extendleft([1,2,3,4])
+print(dq)
+dq.popleft()
+print(dq)
+dq.rotate(-1)
+print(dq)
+dq.rotate(4)
+print(dq)
